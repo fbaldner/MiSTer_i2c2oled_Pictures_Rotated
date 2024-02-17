@@ -38,6 +38,11 @@ Just extract them to your MiSTeR's `/media/fat/i2c2oled/Pix` (I'm quoting venice
 
 If you already have files there, I'd suggest you back them up first so you can go back in case you're not satisfied with the result.
 
+## Known issues
+The loading bar animation is not where it is supposed to be (inside the loading bar!). That is hardcoded into venice's script. One solution would be to shift the loading screens 16 pixels down. But that'd be on top of the banner/header.
+
+Another solution would be to change the script itself. I am interested in doing it eventually, but since I don't know bash script, it's going to take a looooong time for me to first understand and test it over and over on my MiSTer. Since I think there aren't many people interested in this, I'd say this is reserved for a very distant future!
+
 ## Disclaimer
 Python version: 3.11.1. But I don't use any outstanding libraries, so I'd say it can work with pretty much any version.
 
